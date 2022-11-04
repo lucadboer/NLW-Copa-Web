@@ -77,7 +77,7 @@ export default function Home(/*props: HomeProps*/) {
         quality={100} 
         />
 
-        <h1 className='mt-16 text-white text-5xl font-bold tracking-wide leading-tight'>Crie seu próprio bolão da copa e compartilhe entre amigos!</h1>
+        <h1 id='h1' className='mt-16 text-white text-5xl font-bold tracking-wide leading-tight'>Crie seu próprio bolão da copa e compartilhe entre amigos!</h1>
 
         <div className='mt-10 flex items-center gap-2'>
           <Image 
@@ -126,6 +126,7 @@ export default function Home(/*props: HomeProps*/) {
       </main>
 
       <Image 
+      id='previewAppMobile'
       src={previewAppMobile}
       alt='Dois celulares reprensantando uma prévia do App Mobile'
       quality={100}
